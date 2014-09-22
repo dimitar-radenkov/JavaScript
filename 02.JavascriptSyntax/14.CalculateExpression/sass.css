@@ -1,0 +1,27 @@
+﻿body div {
+  width: 300px; }
+  body div #expression {
+    width: 100%;
+    background-color: cadetblue;
+    color: orange; }
+  body div button {
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 10px; }
+    body div button:hover {
+      background-color: black;
+      color: white; }
+  body div #result {
+    height: 50px;
+    background-color: cadetblue;
+    font-size: 20px;
+    color: orange;
+    vertical-align: middle;
+    text-align: center; }
+
+/*# sourceMappingURL=sass.css.map */

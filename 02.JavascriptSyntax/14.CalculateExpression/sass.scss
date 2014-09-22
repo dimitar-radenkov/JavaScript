@@ -1,0 +1,36 @@
+﻿body {
+    div {
+        width:300px;
+
+        #expression{
+            width:100%;
+            background-color:cadetblue;
+            color:orange;
+        }
+
+        button{
+            margin-left:100px;
+            margin-top:10px;
+            margin-bottom:10px;
+            width: 100px;
+            background-color:white;
+            border: 1px solid black;
+            color:black;
+            padding:10px;
+
+            &:hover { 
+                background-color:black; 
+                color: white; 
+            }
+        }
+
+        #result{
+            height:50px;
+            background-color:cadetblue;
+            font-size:20px;
+            color:orange;
+            vertical-align: middle; 
+            text-align: center;
+        }
+    } 
+}

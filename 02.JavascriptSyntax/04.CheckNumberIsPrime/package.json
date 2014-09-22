@@ -1,0 +1,10 @@
+{
+  "name": "_04.CheckNumberIsPrime",
+  "version": "0.0.0",
+  "description": "04.CheckNumberIsPrime",
+  "main": "app.js",
+  "author": {
+    "name": "Radenkov",
+    "email": ""
+  }
+}
