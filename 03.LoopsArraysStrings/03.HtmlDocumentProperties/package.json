@@ -1,0 +1,10 @@
+{
+  "name": "_03.HtmlDocumentProperties",
+  "version": "0.0.0",
+  "description": "03.HtmlDocumentProperties",
+  "main": "app.js",
+  "author": {
+    "name": "Radenkov",
+    "email": ""
+  }
+}
