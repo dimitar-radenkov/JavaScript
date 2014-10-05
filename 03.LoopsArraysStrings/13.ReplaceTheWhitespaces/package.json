@@ -1,0 +1,10 @@
+{
+  "name": "_13.ReplaceTheWhitespaces",
+  "version": "0.0.0",
+  "description": "13.ReplaceTheWhitespaces",
+  "main": "app.js",
+  "author": {
+    "name": "Radenkov",
+    "email": ""
+  }
+}

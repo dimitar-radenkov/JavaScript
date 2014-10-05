@@ -1,0 +1,10 @@
+{
+  "name": "_14.Palindrome",
+  "version": "0.0.0",
+  "description": "14.Palindrome",
+  "main": "app.js",
+  "author": {
+    "name": "Radenkov",
+    "email": ""
+  }
+}
