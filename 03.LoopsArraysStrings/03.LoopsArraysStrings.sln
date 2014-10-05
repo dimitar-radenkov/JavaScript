@@ -23,6 +23,10 @@ Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "09.MostFrequentNumber", "09
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "10.ReverseString", "10.ReverseString\10.ReverseString.njsproj", "{5224A2F7-B64E-44FA-82FA-ED9EB46C01DF}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "11.CheckTheBrackets", "11.CheckTheBrackets\11.CheckTheBrackets.njsproj", "{C59F3859-6BFB-43C0-96FE-310955C84D36}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "12.SubstringCount", "12.SubstringCount\12.SubstringCount.njsproj", "{1B2D8BF0-BCC2-42C9-9071-DD1C637473B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{5224A2F7-B64E-44FA-82FA-ED9EB46C01DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5224A2F7-B64E-44FA-82FA-ED9EB46C01DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5224A2F7-B64E-44FA-82FA-ED9EB46C01DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C59F3859-6BFB-43C0-96FE-310955C84D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C59F3859-6BFB-43C0-96FE-310955C84D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C59F3859-6BFB-43C0-96FE-310955C84D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C59F3859-6BFB-43C0-96FE-310955C84D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B2D8BF0-BCC2-42C9-9071-DD1C637473B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2D8BF0-BCC2-42C9-9071-DD1C637473B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2D8BF0-BCC2-42C9-9071-DD1C637473B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2D8BF0-BCC2-42C9-9071-DD1C637473B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
