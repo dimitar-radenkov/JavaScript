@@ -1,0 +1,10 @@
+{
+  "name": "_05.ReverseEveryWordInString",
+  "version": "0.0.0",
+  "description": "05.ReverseEveryWordInString",
+  "main": "app.js",
+  "author": {
+    "name": "Radenkov",
+    "email": ""
+  }
+}
