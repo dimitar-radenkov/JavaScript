@@ -1,0 +1,13 @@
+﻿body #settings {
+  margin-left: 10px;
+  margin-top: 10px; }
+  body #settings #listboxInfo {
+    width: 600px;
+    height: 200px; }
+  body #settings #drawboard {
+    margin-top: 20px;
+    width: 600px;
+    height: 300px;
+    border: 1px solid; }
+
+/*# sourceMappingURL=styles.css.map */

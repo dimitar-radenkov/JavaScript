@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "01.Shapes", "01.Shapes\01.Shapes.njsproj", "{4166E6BB-8048-4AD1-B6B5-4968E61A19B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CanvasShapes", "02.CanvasShapes\02.CanvasShapes.csproj", "{609C799C-D29C-4236-A373-53336A3853EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4166E6BB-8048-4AD1-B6B5-4968E61A19B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4166E6BB-8048-4AD1-B6B5-4968E61A19B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4166E6BB-8048-4AD1-B6B5-4968E61A19B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4166E6BB-8048-4AD1-B6B5-4968E61A19B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{609C799C-D29C-4236-A373-53336A3853EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609C799C-D29C-4236-A373-53336A3853EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609C799C-D29C-4236-A373-53336A3853EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609C799C-D29C-4236-A373-53336A3853EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

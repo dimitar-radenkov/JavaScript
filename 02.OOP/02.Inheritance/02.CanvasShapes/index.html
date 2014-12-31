@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="shapes.js"></script>
+</head>
+<body>
+    <div id="settings">
+        <strong>X:</strong>
+        <input id="inputX" type="text" />
+
+        <strong>Y:</strong>
+        <input id="inputY" type="text" />
+
+        <strong>Color: </strong>
+        <input id="inputColor" type="color" />
+
+        <br />
+        <strong>Shape:</strong>
+        <select id="selectShape" required="required"
+                onchange="OnShapeChanged()">
+            <option selected="selected">Rectangle</option>
+            <option>Triangle</option>
+            <option>Point</option>
+            <option>Circle</option>
+            <option>Segment</option>
+        </select>
+        <br />
+        <div id="divTriangleExtraData" style="display:none">
+            <strong>X2:</strong>
+            <input type="text" id="textX2" />
+            <strong>Y2:</strong>
+            <input type="text" id="textY2"/>
+
+            <br />
+            <strong>X3:</strong>
+            <input type="text" id="textX3" />
+            <strong>Y3:</strong>
+            <input type="text" id="textY3"/>
+        </div>
+        <div id="divRectangeExtraData">
+            <strong>Width:</strong>
+            <input type="text" id="textWidht" />
+            <strong>Height:</strong>
+            <input type="text" id="textHeight"/>
+        </div>
+
+        <div id="divCircleExtraData" style="display:none">
+            <strong>Radius:</strong>
+            <input type="text" id="textRadius" />
+        </div>
+
+        <div id="divSegmentExtraData" style="display:none">
+            <strong>X2:</strong>
+            <input type="text" id="textSegmentX2" />
+            <strong>Y2:</strong>
+            <input type="text" id="textSegmentY2" />
+        </div>
+
+        <br /><br />
+
+        <select id="listboxInfo" size="10"></select>
+        <div>
+            <button onclick="onButtonUpClick()">Up</button>
+            <button onclick="onButtonDownClick()">Down</button>
+            <br /><br />
+            <button onclick="onButtonAddClick()">Add</button>
+            <button onclick="onButtonRemoveClick()">Remove</button>
+        </div>
+
+        <canvas id="drawboard"></canvas>
+    </div>
+</body>
+</html>
