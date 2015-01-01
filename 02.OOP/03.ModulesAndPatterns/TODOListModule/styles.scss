@@ -1,0 +1,39 @@
+﻿body {
+    #divTodoList{
+        margin-left: auto;
+        margin-right: auto;
+        width:600px;
+        border:2px solid black;
+        padding:5px;
+
+        h2{
+            text-align:center;
+        }
+        
+        #wrapper{
+            border:2px solid black;
+            margin-left: auto;
+            margin-right: auto;
+            width:90%;
+
+            #section{
+
+                h3{
+                    text-align:right;
+                    margin-right:15px;
+                }
+
+                #item{                
+                    font-size:14px;
+                    background-color:lightgreen;                  
+                    
+                    hr{
+                        padding:-5px;
+                        margin-left:20px;
+                        margin-right:10px;
+                    }
+                }
+            }
+        }
+    }
+}

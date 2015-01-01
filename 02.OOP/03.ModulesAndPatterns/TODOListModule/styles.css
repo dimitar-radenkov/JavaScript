@@ -1,0 +1,25 @@
+﻿body #divTodoList {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  border: 2px solid black;
+  padding: 5px; }
+  body #divTodoList h2 {
+    text-align: center; }
+  body #divTodoList #wrapper {
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; }
+    body #divTodoList #wrapper #section h3 {
+      text-align: right;
+      margin-right: 15px; }
+    body #divTodoList #wrapper #section #item {
+      font-size: 14px;
+      background-color: lightgreen; }
+      body #divTodoList #wrapper #section #item hr {
+        padding: -5px;
+        margin-left: 20px;
+        margin-right: 10px; }
+
+/*# sourceMappingURL=styles.css.map */
