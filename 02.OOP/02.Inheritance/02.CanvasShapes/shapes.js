@@ -1,14 +1,14 @@
 ﻿var Shape = (function () {
     function Shape(x, y, color) {
         this._x = x;
-        this._y = y;      
+        this._y = y;
         this._color = color;
 
         if (!validateInput.call(this)) {
             throw new Error("X and Y must be largger than 0");
         }
     }
-    
+
     function validateInput() {
         if (this._x < 0) {
             return false;
@@ -20,17 +20,17 @@
 
         return true;
     }
-    
+
     Shape.prototype.setColor = function (color) {
         this._color = color;
     }
 
     Shape.prototype.toString = function () {
-        return "X: " + this._x + 
-            " Y: " + this._y + 
+        return "X: " + this._x +
+            " Y: " + this._y +
             " Color: " + this._color;
     };
-    
+
     Shape.prototype.draw = function () {
         var canvas = document.getElementById("drawboard");
         this._context = canvas.getContext("2d");
@@ -45,6 +45,8 @@ var Point = (function () {
     function Point(x, y, color) {
         Shape.call(this, x, y, color);
     }
+
+    Point.prototype = Shape();
 
     Point.prototype.getX = function () {
         return this._x;
@@ -77,13 +79,15 @@ var Rectangle = (function () {
         this._height = height;
     }
 
+    Rectangle.prototype = Shape();
+
     Rectangle.prototype.setColor = function (color) {
         Shape.prototype.setColor.call(this, color);
     }
 
     Rectangle.prototype.toString = function () {
-        return "Rectangle - " + Shape.prototype.toString.call(this) + 
-            " Width: " + this._width + 
+        return "Rectangle - " + Shape.prototype.toString.call(this) +
+            " Width: " + this._width +
             " Height: " + this._height;
     };
 
@@ -102,6 +106,8 @@ var Triangle = (function () {
         this._point3 = point3;
     }
 
+    Triangle.prototype = Shape();
+
     Triangle.prototype.setColor = function (color) {
         Shape.prototype.setColor.call(this, color);
     }
@@ -114,7 +120,7 @@ var Triangle = (function () {
 
     Triangle.prototype.draw = function () {
         Shape.prototype.draw.call(this);
-       
+
         this._context.beginPath();
         this._context.moveTo(this._x, this._y);
         this._context.lineTo(this._point2.getX(), this._point2.getY());
@@ -131,6 +137,7 @@ var Circle = (function () {
         this._radius = radius;
     }
 
+    Circle.prototype = new Shape();
 
     Circle.prototype.toString = function () {
         return "Circle - " + Shape.prototype.toString.call(this) +
@@ -153,10 +160,12 @@ var Segment = (function () {
         Shape.call(this, x, y, color);
         this._point = point;
     }
-    
+
+    Segment.prototype = new Shape();
+
     Segment.prototype.toString = function () {
-        return "Segment - " + Shape.prototype.toString.call(this) + 
-            " " + this._point.toString();   
+        return "Segment - " + Shape.prototype.toString.call(this) +
+            " " + this._point.toString();
     }
 
     Segment.prototype.draw = function () {
@@ -167,8 +176,8 @@ var Segment = (function () {
         this._context.lineTo(this._point.getX(), this._point.getY());
         this._context.stroke();
     }
-    
-    return Segment; 
+
+    return Segment;
 }());
 
 Array.prototype.swapItems = function (a, b) {
