@@ -25,6 +25,15 @@
         this._color = color;
     }
 
+    Shape.prototype.getX = function () {
+        return this._x;
+    }
+
+    Shape.prototype.getY = function () {
+        return this._y;
+    }
+
+
     Shape.prototype.toString = function () {
         return "X: " + this._x +
             " Y: " + this._y +
@@ -48,18 +57,6 @@ var Point = (function () {
 
     Point.prototype = Shape();
 
-    Point.prototype.getX = function () {
-        return this._x;
-    }
-
-    Point.prototype.getY = function () {
-        return this._y;
-    }
-
-    Point.prototype.setColor = function (color) {
-        Shape.prototype.setColor.call(this, color);
-    }
-
     Point.prototype.toString = function () {
         return "Point - " + Shape.prototype.toString.call(this);
     };
@@ -80,10 +77,6 @@ var Rectangle = (function () {
     }
 
     Rectangle.prototype = Shape();
-
-    Rectangle.prototype.setColor = function (color) {
-        Shape.prototype.setColor.call(this, color);
-    }
 
     Rectangle.prototype.toString = function () {
         return "Rectangle - " + Shape.prototype.toString.call(this) +
@@ -107,10 +100,6 @@ var Triangle = (function () {
     }
 
     Triangle.prototype = Shape();
-
-    Triangle.prototype.setColor = function (color) {
-        Shape.prototype.setColor.call(this, color);
-    }
 
     Triangle.prototype.toString = function () {
         return "Triangle - " + Shape.prototype.toString.call(this) +
