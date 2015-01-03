@@ -1,0 +1,16 @@
+﻿body .tableCars {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid black;
+  margin: 0 auto; }
+  body .tableCars td {
+    border: 1px solid black;
+    width: 100px;
+    padding: 5px; }
+  body .tableCars .tableHeader {
+    background-color: forestgreen; }
+    body .tableCars .tableHeader th {
+      padding: 10px;
+      border: 1px solid black; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,19 @@
+﻿body #wrapper {
+  display: flex; }
+  body #wrapper #inputForm {
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 400px;
+    height: 600px; }
+  body #wrapper #buttonProcess {
+    margin-top: 300px;
+    margin-left: 20px;
+    width: 100px;
+    height: 50px;
+    vertical-align: middle; }
+  body #wrapper .center {
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center; }
+
+/*# sourceMappingURL=styles.css.map */

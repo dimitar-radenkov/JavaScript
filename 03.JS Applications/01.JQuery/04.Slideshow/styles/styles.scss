@@ -1,0 +1,31 @@
+﻿body{
+    .buttonsWrapper{
+        text-align: center;
+
+        button{
+            width:100px;
+            height:25px;
+        }
+    }
+
+    .slide{
+        margin:0 auto;
+        width: 350px;
+        height: 350px;
+        display:none;
+
+        img{
+            width:300px;
+            margin:0 auto;
+        }
+
+        text{
+            margin-left:110px;
+            font-weight:bolder;
+        }
+    }
+
+    .first{
+        display:block;
+    }
+}

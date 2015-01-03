@@ -1,0 +1,23 @@
+﻿body {
+    .tableCars{
+        border-collapse: separate;
+        border-spacing: 0;    
+        border:1px solid black;
+        margin: 0 auto;
+
+        td{
+            border: 1px solid black;
+            width:100px;
+            padding:5px;
+        }
+
+        .tableHeader{
+            background-color:forestgreen;
+            th{
+                padding:10px;
+                border:1px solid black;
+            }           
+        }
+    }
+}
+
