@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SimpleListView", "01.SimpleListView\01.SimpleListView.csproj", "{442679E1-0B1B-4E00-96F7-111D8AC5B0D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.FadeMessageBox", "02.FadeMessageBox\02.FadeMessageBox.csproj", "{53BFA1F3-3A6B-4BC3-8950-EE926193C89D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{442679E1-0B1B-4E00-96F7-111D8AC5B0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442679E1-0B1B-4E00-96F7-111D8AC5B0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442679E1-0B1B-4E00-96F7-111D8AC5B0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442679E1-0B1B-4E00-96F7-111D8AC5B0D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53BFA1F3-3A6B-4BC3-8950-EE926193C89D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53BFA1F3-3A6B-4BC3-8950-EE926193C89D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53BFA1F3-3A6B-4BC3-8950-EE926193C89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53BFA1F3-3A6B-4BC3-8950-EE926193C89D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
