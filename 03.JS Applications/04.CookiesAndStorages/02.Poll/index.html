@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Poll</title>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <div id="countdownTimer"></div>
+    <div id="questionsList">
+        <p>1.Which is your favourite color?</p>
+        <ul style="list-style:none">
+            <li><input type="radio" name="color" value="Blue" onchange="onAnswerClicked('color')" />1.Blue</li>
+            <li><input type="radio" name="color" value="Red" onchange="onAnswerClicked('color')" />2.Red</li>
+            <li><input type="radio" name="color" value="Black" onchange="onAnswerClicked('color')" />3.Black</li>
+            <li><input type="radio" name="color" value="Purple" onchange="onAnswerClicked('color')" />4.Purple</li>
+        </ul>
+        <br /><br />
+        <p>2.Which is your favourite month?</p>
+        <ul style="list-style:none">
+            <li><input type="radio" name="month" value="June" onchange="onAnswerClicked('month')"/>1.June</li>
+            <li><input type="radio" name="month" value="July" onchange="onAnswerClicked('month')" />2.July</li>
+            <li><input type="radio" name="month" value="December" onchange="onAnswerClicked('month')" />3.December</li>
+            <li><input type="radio" name="month" value="April" onchange="onAnswerClicked('month')" />4.April</li>
+        </ul>
+        <br />
+        <button id="submitButton" onclick="onButtonSubmitClicked()">Submit</button>
+    </div>
+    <div id="results"></div>
+</body>
+</html>
