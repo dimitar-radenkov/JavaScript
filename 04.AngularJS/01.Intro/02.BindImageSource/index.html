@@ -1,0 +1,14 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Bind Img Source</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+    <script src="scripts.js"></script>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body ng-app="imageApp">
+    <input type="text" placeholder="type url here"
+           ng-model="imgPath" /> <br />
+    <img ng-src="{{imgPath}}" />
+</body>
+</html>

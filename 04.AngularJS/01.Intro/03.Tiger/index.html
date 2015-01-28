@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Tiger</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+    <script src="app.js"></script>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body ng-app="tigerApp">
+    <div ng-controller="tigerController">
+        <div class="tigerEntity">
+            <table>
+                <tr>
+                    <td><strong>Name:</strong>{{tiger.Name}}</td>
+                    <td rowspan="5">
+                        <img src="http://tigerday.org/wp-content/uploads/2013/04/tiger.jpg" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Born:</strong>{{tiger.Born}}</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong>Birth date:</strong>{{tiger.BirthDate}}</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong>Live:</strong>{{tiger.Live}}</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+﻿body .tigerEntity {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightgray;
+  padding: 5px; }
+  body .tigerEntity table {
+    width: 600px; }
+    body .tigerEntity table img {
+      width: 200px; }
+
+/*# sourceMappingURL=styles.css.map */

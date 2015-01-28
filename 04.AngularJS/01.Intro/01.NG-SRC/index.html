@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>01.Using ng-src</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+    <script src="scripts.js"></script>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body ng-app="01.App">
+    <div ng-controller="studentController">
+        <div class="studentInfo">
+
+            <img ng-src="{{student.photo}}" />
+            <strong>Name </strong> <br />
+            <span> {{student.name}} </span><br />
+
+            <strong>Grade </strong> <br />
+            <span> {{student.grade}} </span><br />
+
+            <strong>School </strong><br />
+            <span> {{student.school}} </span><br />
+
+            <strong>Teacher </strong><br />
+            <span> {{student.teacher}} </span><br />
+
+        </div>
+    </div>
+</body>
+</html>
